@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tezos Canada Bakery</title>
+    <link media="all" rel="stylesheet" href="~/assets/css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        @RenderBody()
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    </div>
+    <footer id="footer">
+        <a id="contact"></a>
+        <div class="container text-center">
+            <h2>Contact Us</h2>
+            <div class="description">
+                <p>Get in touch if you have any sort of questions.</p>
+            </div>
+            <div class="socilas">
+                <a href="https://twitter.com/TezosCanadaBake" target="_blank" class="soc">
+                    <img src="/assets/img/ico-twitter.png" srcset="/assets/img/ico-twitter@2x.png 2x" width="60" height="60" alt="Twitter">
+                </a>
+                @*
+                <a href="tg://resolve?domain=TezosCanadaBakery" target="_blank" class="soc">
+                    <img src="/assets/img/ico-telegram.png" srcset="/assets/img/ico-telegram@2x.png 2x" width="60" height="60" alt="Telegram">
+                </a>
+                *@
+                <a href="mailto:TezosCanadaBakery@gmail.com" target="_blank" class="soc">
+                    <img src="/assets/img/ico-mail.png" srcset="/assets/img/ico-mail@2x.png 2x" width="60" height="60" alt="Mail">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!-- loading JS Start -->
+    <script src="/assets/js/jquery-3.2.1.min.js" defer></script>
+    <script src="/assets/js/jquery.main.js" defer></script>
+    <!-- loading JS End -->
+</body>
+</html>

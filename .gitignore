@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BakeryWebsite/Properties/PublishProfiles/tezoscanada - FTP.pubxml.user
+/BakeryWebsite/Properties/PublishProfiles/tezoscanada - Web Deploy.pubxml.user

@@ -1,0 +1,256 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<header id="header">
+    <img src="/assets/img/bg-hero.jpg" srcset="/assets/img/bg-hero@2x.jpg 2x" width="1920" height="150" alt="hero back" class="header-back">
+    <div class="container">
+        <div class="main-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <!--<li>@Html.ActionLink("Dashboard", "Dashboard", "Home")</li>-->
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main id="main">
+    <section class="section hero">
+        <img src="/assets/img/bg-hero.jpg" srcset="/assets/img/bg-hero@2x.jpg 2x" width="1920" height="150" alt="hero back" class="hero-back">
+    </section>
+    <section class="section section-white section-features">
+        <div class="container">
+            <h2 class="text-center">Our Features</h2>
+            <div class="blocks-holder">
+                <div class="block">
+                    <div class="icon-holder">
+                        <img src="/assets/img/ico-anonymous.png" srcset="/assets/img/ico-anonymous@2x.png 2x" width="87" height="89" alt="Anonymity">
+                    </div>
+                    <div class="text-holder">
+                        <h3>Anonymity</h3>
+                        <div class="description">
+                            <p>No sign-up required as well as any other personal information - we respect your privacy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon-holder">
+                        <img src="/assets/img/ico-offer.png" srcset="/assets/img/ico-offer@2x.png 2x" width="88" height="88" alt="9% Fee">
+                    </div>
+                    <div class="text-holder">
+                        <h3>9% Fee</h3>
+                        <div class="description">
+                            <p>Dynamic payment model. Rewards are calculated using current inflation of the system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="icon-holder">
+                        <img src="/assets/img/ico-delivery.png" srcset="/assets/img/ico-delivery@2x.png 2x" width="101" height="66" alt="Frequent Payments">
+                    </div>
+                    <div class="text-holder">
+                        <h3>Frequent Payments</h3>
+                        <div class="description">
+                            <p>Your baking rewards are promtly distributed on the beginning of every cycle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-white section-wallet">
+        <div class="container">
+            <h2 class="text-center">How To Delegate With Magnum Wallet</h2>
+            <div class="wallet-holder">
+                <div class="wallet-block">
+                    <div class="top">
+                        <div class="iframe-holder">
+                            <iframe width="510" height="285" src="https://www.youtube.com/embed/kUDUfR07jws" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="image-holder">
+                            <img src="/assets/img/bg-magnum-wallet.jpg" srcset="/assets/img/bg-magnum-wallet@2x.jpg 2x" width="230" height="218" alt="Magnum Wallet">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="description text-center">
+                            <p>Supported Platform: Web Wallet, Android</p>
+                            <p>Hardware Wallets Supported: Ledger Nano S, Ledger Nano X, Trezor Model T</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center">How To Delegate With Galleon Wallet</h2>
+            <div class="wallet-holder">
+                <div class="wallet-block">
+                    <div class="top">
+                        <div class="iframe-holder">
+                            <iframe width="510" height="285" src="https://www.youtube.com/embed/-F1vaVv8HlM" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="image-holder">
+                            <img src="/assets/img/bg-galleon-wallet.png" srcset="/assets/img/bg-galleon-wallet@2x.png 2x" width="237" height="250" alt="Galleon Wallet">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="description text-center">
+                            <p>Supported Platform: macOS, Windows, Linux(deb)</p>
+                            <p>Hardware Wallets Supported: Ledger Nano S</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-gray section-faq">
+        <div class="container">
+            <h2 class="text-center">Frequently Asked Questions</h2>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">What is Tezos?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <p>Tezos is an open-source platform for assets and applications that can evolve by upgrading itself. Stakeholders govern upgrades to the core protocol, including upgrades to the amendment process itself.</p>
+                        <p><a href="https://tezos.com/get-started">Get started with Tezos!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">What is baking?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <p>Bitcoin has mining, Lorem ipsum dolor sit.</p>
+                        <p><a href="https://medium.com/tezos/its-a-baker-s-life-for-me-c214971201e1">It's a bakers life for me</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">Why should I delegate?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">Are my Tezzies safe when I delegate?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">How can I delegate my Tezzies to Bake'n'Rolls?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">How much will I make?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">When and how do I get paid?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse-block close">
+                <div class="block-header">
+                    <div class="title">Is there a minimum payment threshold?</div>
+                    <div class="collapse-button">
+                        <img src="/assets/img/ico-arrow.png" srcset="/assets/img/ico-arrow@2x.png 2x" width="26" height="17" alt="arrow">
+                    </div>
+                </div>
+                <div class="block-body">
+                    <div class="description">
+                        <h2>Lorem ipsum dolor sit.</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, magni, amet. Eaque quas hic, sint iste molestiae earum commodi voluptatum nostrum cumque, expedita impedit accusamus labore corporis corrupti dicta eos tenetur omnis deleniti. Quae nihil, ex sapiente laborum, consequatur, possimus maiores assumenda similique provident quia qui error, quisquam! Deserunt in neque sed tempore repellendus totam vel nisi fugiat, corporis iusto odit velit sint, officia labore aspernatur sequi magnam ipsa excepturi! Voluptates recusandae quod aut, beatae molestiae est similique quisquam magni ut maiores earum nemo optio totam! Consectetur, natus nulla ipsam eum ab eius, sapiente sunt! Possimus, dignissimos voluptates hic aliquam.</p>
+                        <h3>Lorem ipsum dolor sit.</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente nobis error qui fugit officiis unde facilis voluptas nostrum nam earum?</p>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi inventore perferendis error voluptas saepe animi repellendus vel delectus! Iure qui inventore quasi quia rem voluptatibus magni quae sequi! Laudantium aspernatur consectetur accusantium, voluptatibus culpa eum ducimus sapiente quidem repudiandae, recusandae tempore quos nemo aliquid debitis totam omnis aperiam consequuntur! Nobis.</p>
+                        <h5>Lorem ipsum.</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa quo facilis, obcaecati natus. Sequi accusantium, corporis magnam, debitis magni voluptatum nostrum omnis officia culpa numquam dolore asperiores sunt tempora ad?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
